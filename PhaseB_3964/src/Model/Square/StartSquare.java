@@ -1,0 +1,72 @@
+package Model.Square;
+
+import javax.swing.ImageIcon;
+
+import Model.Color.Color;
+import Model.Pawn.Pawn;
+
+
+/**
+ * This class creates a new start square of the board.
+ * @author 3964
+ */
+public class StartSquare extends Square {
+
+	private boolean occupied = false;
+	private Pawn p;
+
+	
+	/**
+	 * <Constructor> 
+	 * <Postcondition> : creates a new start square for player p and
+	 * sets it's image, with command  super , to parent class Square.
+	 * @param image
+	 * @param color
+	 */
+	public StartSquare(Color color, ImageIcon image) {
+		super(color, image);
+	}
+
+	
+	/**
+	 * <Transformer> : set the square as occupied.
+	 * <Postcondition> : square's boolean occupied has been set.
+	 * @param boolean occupied
+	 */
+	public void setOccupied(boolean occupied) {
+		this.occupied = true;
+	}
+
+	
+	/**
+	 * <Accessor> : return true if there's a pawn in this square, else false.
+	 * <Postcondition> : we know if square is occupied or not.
+	 * @return boolean occupied
+	 */
+	public boolean isOccupied() {
+		return occupied;
+	}
+	
+	
+	
+	/**
+	 * <Transformer> : sets a pawn to the chosen square.
+	 * <Postcondition> : pawn moves to the chosen square.
+	 * @param Pawn p
+	 */
+	public void setPawn(Pawn p) {
+		this.p = p;
+	}
+	
+	
+	/**
+	 * <Accessor> : returns the pawn of the chosen square.
+	 * <Precondition> : square must be occupied by a pawn.
+	 * <Postcondition> : pawn of the chosen square has been returned.
+	 * @return Pawn p
+	 */
+	public Pawn getPawn() {
+		return p;
+	}
+
+}
