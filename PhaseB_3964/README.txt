@@ -1,4 +1,4 @@
-Get inside src file of the project , compile and run the packages by the following commands.
+Compile the packages by the following commands.
 
 javac Model/Card/*.java
 javac Model/Color/*.java
