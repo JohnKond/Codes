@@ -1,10 +1,5 @@
-Compile the packages by the following commands.
+#Board game : Sorry!
+Sorry! is a board game that is based on the ancient Indian cross and circle game Pachisi. Players move their two pieces around the board, attempting to get all of their pieces "home" the other player.
 
-javac Model/Card/*.java
-javac Model/Color/*.java
-javac Model/Deck/*.java
-javac Model/Player/*.java
-javac Model/Square/*.java
-javac Controller/*.java
-javac View/*.java
-java Controller/Game
+
+
