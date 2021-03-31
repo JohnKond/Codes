@@ -8,4 +8,9 @@ game Pachisi. Players move their two pieces around the board, attempting to
 get all of their pieces "home" the other player.
 
 
-##Screenshots:
+### Screenshots:
+
+![alt text](https://github.com/JohnKond/Sorry_board_game/blob/master/screenshots/Screenshot%202021-03-31%20at%2012.27.26.png)
+
+![alt text](https://github.com/JohnKond/Sorry_board_game/blob/master/screenshots/Screenshot%202021-03-31%20at%2012.29.06.png)
+
