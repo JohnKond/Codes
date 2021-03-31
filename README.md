@@ -2,6 +2,7 @@
 
 A Java Project for CS-HY252(Object-Oriented Programming).
 For this Project I used MVC pattern(Model-View-Controller).
+~ Grade: [99/100]
 
 Sorry! is a board game that is based on the ancient Indian cross and circle
 game Pachisi. Players move their two pieces around the board, attempting to
